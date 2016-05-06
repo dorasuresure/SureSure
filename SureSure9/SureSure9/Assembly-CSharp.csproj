@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{93C7A8E7-CD8E-F6A2-C6AB-92962BED5B9D}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_2;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\GamePadInput\GamePad.cs" />
+     <Compile Include="Assets\Scene\title.cs" />
+     <Compile Include="Assets\Script\BackGround\Block\BoxContorollerDoragon.cs" />
+     <Compile Include="Assets\Script\BackGround\Block\BoxContorollerPlayer.cs" />
+     <Compile Include="Assets\Script\BackGround\Block\DBblock.cs" />
+     <Compile Include="Assets\Script\BackGround\Block\EnemyGenerator.cs" />
+     <Compile Include="Assets\Script\BackGround\Block\GameClea.cs" />
+     <Compile Include="Assets\Script\BackGround\Block\PBblock.cs" />
+     <Compile Include="Assets\Script\Boss\BossGate.cs" />
+     <Compile Include="Assets\Script\Boss\BossScript.cs" />
+     <Compile Include="Assets\Script\Boss\Bossatack.cs" />
+     <Compile Include="Assets\Script\Boss\bossHP.cs" />
+     <Compile Include="Assets\Script\Doragon\Bite.cs" />
+     <Compile Include="Assets\Script\Doragon\Fire.cs" />
+     <Compile Include="Assets\Script\Doragon\doragon.cs" />
+     <Compile Include="Assets\Script\Enemy\Enemy1Script.cs" />
+     <Compile Include="Assets\Script\Enemy\FairyGreen.cs" />
+     <Compile Include="Assets\Script\Enemy\FairyYellow.cs" />
+     <Compile Include="Assets\Script\Enemy\Ice.cs" />
+     <Compile Include="Assets\Script\Enemy\fairy2Script.cs" />
+     <Compile Include="Assets\Script\Enemy\kaminari.cs" />
+     <Compile Include="Assets\Script\Enemy\kamituki.cs" />
+     <Compile Include="Assets\Script\Enemy\wolf.cs" />
+     <Compile Include="Assets\Script\Player\Player.cs" />
+     <Compile Include="Assets\Script\Player\Slash.cs" />
+     <Compile Include="Assets\Script\Player\mahou.cs" />
+     <Compile Include="Assets\Script\Player\rakka.cs" />
+     <Compile Include="Assets\Script\Player\thunder.cs" />
+     <Compile Include="Assets\Script\Startsber\HPScript.cs" />
+     <Compile Include="Assets\Script\Startsber\ItemScript.cs" />
+     <Compile Include="Assets\Script\Startsber\MPItemScript.cs" />
+     <Compile Include="Assets\Script\Startsber\MpScript.cs" />
+     <Compile Include="Assets\Script\Startsber\SubMp.cs" />
+     <Compile Include="Assets\Script\title.cs" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.2/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

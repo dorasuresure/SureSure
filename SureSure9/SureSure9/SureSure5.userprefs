@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\Enemy\Ice.cs">
+    <Files>
+      <File FileName="Assets\Script\Enemy\Ice.cs" Line="13" Column="20" />
+      <File FileName="Assets\Script\Enemy\FairyGreen.cs" Line="41" Column="13" />
+      <File FileName="Assets\Script\Enemy\FairyGreen1.cs" Line="17" Column="22" />
+      <File FileName="Assets\Script\Enemy\Ice1.cs" Line="15" Column="25" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\student\Desktop\SureSure5\Assets\Script\Enemy\FairyGreen.cs" line="41" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
